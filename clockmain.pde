@@ -93,17 +93,4 @@ void draw() {
   point (cx ,cy );
   
   
- /* int hour = 3;
-  for (int a = 0; a < 360; a+=30) {
-    float ang = radians(a);
-    float x = cx + cos(ang) * Sec_Hand * 1.1;
-    float y = cy + sin(ang) * Sec_Hand * 1.1;
-    vertex(x, y);
-    fill(255);
-    text(hour, x, y);
-    hour++;
-    if(hour > 12){
-      hour = 1;
-    }
-  }*/
 }
