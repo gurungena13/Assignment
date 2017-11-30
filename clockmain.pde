@@ -31,7 +31,7 @@ void setup() {
 void draw() {
   background(#7475A2);
   textSize(36);
-  text("Analog",30,50);
+  text("Hybrid",30,50);
   text("Clock",500,50);
   fill(0);
   noStroke();
