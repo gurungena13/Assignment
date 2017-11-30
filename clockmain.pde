@@ -68,7 +68,7 @@ void draw() {
   sec = second();
   textSize(40);
   fill(#35015A);
-  text("                  " + (int)hr + ":" + (int)min + ":" + (int)sec, 1, 590);
+  text("                    " + (int)hr + ":" + (int)min + ":" + (int)sec, 1, 590);
   
   
   float s = map(second(), 0, 60, 0, TWO_PI) - HALF_PI;
